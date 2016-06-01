@@ -13,6 +13,7 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent e){
     	ModItems.registerItems();
 		ModBlocks.createBlocks();
+		// this is a comment
 		//ModTileEntities.init();
 	}
 	
